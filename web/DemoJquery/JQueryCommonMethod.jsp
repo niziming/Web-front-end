@@ -10,10 +10,11 @@
 <body>
 <h3>Jquery常用方法</h3>
 	### 取值
+	通过 JQuery 对象的 val() 方法获取值
+	相当于 document.getElementById ("input1").value;
 	<script>
 		/*
-		通过 JQuery 对象的 val() 方法获取值
-		相当于 document.getElementById ("input1").value;
+
 		 */
         $(function(){
             $("#b1").click(function(){
