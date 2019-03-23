@@ -7,6 +7,21 @@ header-img:
 tags: [Ajax]
 ---
 
+### Ajax 是什么？
+AJAX 是一种在无需重新加载整个网页的情况下，能够更新部分网页的技术。
+- AJAX = Asynchronous JavaScript and XML（异步的 JavaScript 和 XML）。
+- AJAX 不是新的编程语言，而是一种使用现有标准的新方法。
+- AJAX 最大的优点是在不重新加载整个页面的情况下，可以与服务器交换数据并更新部分网页内容。
+- AJAX 不需要任何浏览器插件，但需要用户允许 JavaScript 在浏览器上执行。
+
+### Ajax 做什么？
+
+- 运用 XHTML+CSS 来表达资讯；
+- 运用 JavaScript 操作 DOM（Document Object Model）来执行动态效果；
+- 运用 XML 和 XSLT 操作资料；
+- 运用 XMLHttpRequest 或新的 Fetch API 与网页服务器进行异步资料交换；
+- 注意：AJAX 与 Flash、Silverlight 和 Java Applet 等 RIA 技术是有区分的。
+
 ### Ajax请求
 
 A：                          			
@@ -61,8 +76,9 @@ B：
 
 ### 项目文件
 
-> https://github.com/niziming/Web-front-end.git
+> https://https://github.com/niziming/Web-front-end/tree/master/web/ajax
 
 ### 引用资料
 
 > http://how2j.cn/k/ajax/ajax-tutorial/465.html
+> http://www.runoob.com/ajax/ajax-tutorial.html

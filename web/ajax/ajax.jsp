@@ -16,7 +16,7 @@
             var url = "/checkName.jsp?name="+name;
             
             xmlhttp = new XMLHttpRequest();
-            xmlhttp.onreadystatechange=checkResult; //响应函数
+            xmlhttp.onreadystatechange = checkResult; //响应函数
             xmlhttp.open("GET", url, true);   //设置访问的页面
             xmlhttp.send(null);  //执行访问
         }
